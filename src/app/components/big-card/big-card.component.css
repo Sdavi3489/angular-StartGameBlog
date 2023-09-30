@@ -1,0 +1,35 @@
+.containerBigCard{
+    width: 1000px;
+    height: 500px;
+    background-color: #343090;
+    /*border: 0.5px solid #8c61ff;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 5px;
+}
+
+.big-card__title{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.big-card__title > h1{
+    font-family:'Segoe UI', 'Roboto', sans-serif;
+    color: #5f59f7;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+.big-card__photo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imageBigCard{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
