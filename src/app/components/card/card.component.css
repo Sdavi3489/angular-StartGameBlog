@@ -1,42 +1,44 @@
 .containerSmallCard{
-    width: 350px;
-    height: auto;
-    /* display: flex;
-    flex-flow: column wrap;
+    width: 320px;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    align-items: center; */
-    background-color: #343090;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    margin-top: 20px;
+    align-items: flex-start;
+    background-color: #1a1c32;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
+    margin: 10px;
     border-radius: 8px;
+    
 }
 
 .SmallCardTitle{
+    font-family:'Segoe UI', 'Roboto', sans-serif;
     width: auto;
     height: auto;
     text-align:center;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #74448b;
 }
 
 .ContainerImage{
-    width: auto;
+    width: 100%;
     height: auto;
 }
 
 .imageSmallCard{
     width: 100%;
-    height: 100%;
+    height: 290px;
     border-radius: 8px;
 }
 
 .desc{
-    font-family: 'Roboto', 'SegoeUi', 'Times New Roman', sans-serif;
+    font-family: 'Roboto', 'SegoeUI', 'Times New Roman', sans-serif;
     font-size: large;
     text-align: justify;
-    color: #fff;
+    color: #6b7484;
     padding: 0 20px;
 }

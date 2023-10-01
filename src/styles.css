@@ -5,5 +5,5 @@
 }
 
 body{
-    background-color: #6592fd;
+    background: linear-gradient(90deg, rgba(80,51,129,1) 0%, rgba(116,68,139,1) 35%, rgba(125,123,163,1) 100%);;
 }

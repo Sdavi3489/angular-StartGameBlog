@@ -1,0 +1,45 @@
+.containerNavBar{
+    height: 60px;
+    background-color: #1a1c32;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul, li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    font-family: "Roboto", "SegoeUI", sans-serif;
+    font-size: 20px;
+    color: #6b7484;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.containerLogo{
+    display: flex;
+    align-content: center;
+    padding: 0 30px;
+}
+
+.logoImg{
+    width: 100px;
+    height: 50px;
+}
+
+.iconDev{
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+}

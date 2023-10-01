@@ -1,7 +1,7 @@
 .containerBigCard{
     width: 1000px;
     height: 500px;
-    background-color: #343090;
+    background-color: #1a1c32;
     /*border: 0.5px solid #8c61ff;*/
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,7 +18,7 @@
 
 .big-card__title > h1{
     font-family:'Segoe UI', 'Roboto', sans-serif;
-    color: #5f59f7;
+    color: #74448b;
     padding-left: 10px;
     font-size: 50px;
 }
