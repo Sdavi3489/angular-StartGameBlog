@@ -1,0 +1,42 @@
+.containerSmallCard{
+    width: 350px;
+    height: auto;
+    /* display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; */
+    background-color: #343090;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.SmallCardTitle{
+    width: auto;
+    height: auto;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.ContainerImage{
+    width: auto;
+    height: auto;
+}
+
+.imageSmallCard{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.desc{
+    font-family: 'Roboto', 'SegoeUi', 'Times New Roman', sans-serif;
+    font-size: large;
+    text-align: justify;
+    color: #fff;
+    padding: 0 20px;
+}
