@@ -13,6 +13,8 @@ export class CardComponent implements OnInit {
   photoCover:string = ""
   @Input()
   description:string = ""
+  @Input()
+  Id:string = "0"
 
   constructor() { }
 

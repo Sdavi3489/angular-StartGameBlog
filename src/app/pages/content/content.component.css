@@ -1,0 +1,65 @@
+.containerContent{
+    width: 100%;
+    height: auto; /*o vh pega 100% da tela de visualização*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b7484;
+    padding-bottom: 20px;
+}
+
+.contentCover > img{
+    border: 5px solid #808080;
+    border-radius: 5px;
+    width: 350px;
+    min-width: 350px;
+    height: 250px;
+}
+
+.contentDescription{
+    margin-top: 15px;
+}
+
+.contentDescription> p{
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    font-size: large;
+    color: #191919;
+    padding: 0 180px;
+    text-align: justify;
+    text-indent: 50px;
+
+}
+
+.author{
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    font-size: small;
+    color: #191919;
+    padding: 15px 0;
+}
+
+.title{
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    color: #191919;
+    margin-top: 20px;
+}
+
+.back{
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    font-weight: bold;
+    color: #191919;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.back:link {
+    text-decoration: none;
+}
+
+a:hover {
+    border: 3px solid #5F59F7;
+    background-color: #7d7ba3;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.3s;
+}

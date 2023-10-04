@@ -1,0 +1,18 @@
+<div class="containerContent">
+    <a class="back" [routerLink]="['']"><< VOLTAR</a>
+    <div class="contentCover">
+        <img src="{{ photoCover }}" alt="">
+    </div>
+    <div class="contentTitle">
+        <h1 class="title">{{ contentTitle }}</h1>
+    </div>
+    <p class="author">Por Fulando - 01 de outubro de 2023</p>
+    <p class="author">Texto apenas para fins de demonstração, novas atualizações em breve!</p>
+    <div class="contentDescription">
+        <!-- esse routerlink serve para volta para a home -->
+        <p>
+            {{ contentText }}
+        </p>
+        <!-- {{ contentText }} -->
+    </div>
+</div>
